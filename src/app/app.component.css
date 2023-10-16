@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppons', sans-serif;
+}
+
+.my-container{
+    max-width: 1500px;
+}
+
+.my-rounded-corner {
+    border-radius: 1rem;
+}
+
+:host {
+    height: 6.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 20;
+}
+
+main{
+    margin-top: 4rem;
+    padding: 1rem;
+    min-height: calc(100vh-8rem);
+    z-index: 1;
+}
+
+footer {
+    height: 4rem;
+}
